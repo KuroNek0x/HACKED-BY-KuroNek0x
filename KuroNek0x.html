@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=0.7, user-scalable=no" />
+  <title>HACKED BY KuroNek0x</title>
+  <meta name="description" content="HACKED BY KuroNek0x — Este site foi comprometido." />
+  <meta property="og:title" content="HACKED BY KuroNek0x" />
+  <meta property="og:description" content="Este site foi comprometido por KuroNek0x." />
+  <meta name="twitter:title" content="HACKED BY KuroNek0x" />
+  <meta name="twitter:description" content="Este site foi comprometido por KuroNek0x." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=VT323&display=swap" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    @font-face {
+      font-family: 'Iceberg';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Iceberg'), url(https://fonts.gstatic.com/s/iceberg/v7/8QIJdijAiM7o-qnZiI8EqprnEO0.woff2) format('woff2');
+    }
+    body {
+      background-color: black;
+      color: gray;
+    }
+    .static-text {
+      font-family: 'Iceberg', sans-serif;
+      font-size: 46px;
+      font-weight: bold;
+      color: #5ac8fa;
+      margin: 10px 0 5px 0;
+      white-space: nowrap;
+    }
+    h4 {
+      font-size: 20px;
+      margin: 6px 0 2px 0;
+    }
+    h3 {
+      font-size: 18px;
+      margin: 2px 0 10px 0;
+    }
+    #playIcon {
+      cursor: pointer;
+      font-size: 36px;
+      color: #5ac8fa;
+      background-color: transparent;
+      border: none;
+      width: 48px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      margin: 12px auto 0 auto;
+      display: block;
+      user-select: none;
+      transition: color 0.3s;
+    }
+    #playIcon:hover {
+      color: #3996cc;
+    }
+  </style>
+</head>
+<body alink="gray" vlink="gray" link="gray" text="gray">
+  <center>
+    <img
+      src="https://i.pinimg.com/originals/d9/30/eb/d930eb5c03ce4391e320ac064fcbb62a.jpg"
+      width="500"
+      height="300"
+      alt="Imagem"
+    />
+    <div class="static-text">INF3CTUS TEAM</div>
+
+    <h4><font color="red" face="Iceberg">NÓS SOMOS:</font></h4>
+    <h3><font color="yellow" face="Iceberg">[ KuroNek0x ] - [ K4tz0x ]</font></h3>
+    <h3><font color="white"><p>Seu site idiota foi hackeado. O site foi hackeado para fins de entretenimento, haha.</p></font></h3>
+
+    <audio
+      id="hackedAudio"
+      preload="auto"
+      loop
+      src="https://www.dropbox.com/scl/fi/3sy4jt0gzjse27nkis116/hacked_by_KuroNek0x.m4a?rlkey=4kzzb3kyg0qrrel9ujax77y3d&st=kaexkjtt&raw=1"
+      type="audio/mp4"
+    >
+      Seu navegador não suporta o áudio.
+    </audio>
+
+    <div id="playIcon" title="Clique para ativar o som">
+      <i class="fa-solid fa-circle-play"></i>
+    </div>
+  </center>
+
+  <script>
+    const audio = document.getElementById('hackedAudio');
+    const playIcon = document.getElementById('playIcon');
+    window.addEventListener('load', () => {
+      audio.load();
+      audio.muted = true;
+      audio.play().catch(() => {});
+    });
+    playIcon.addEventListener('click', () => {
+      audio.muted = false;
+      audio.play();
+      playIcon.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
